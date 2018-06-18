@@ -8,6 +8,127 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="125"/>
+            <RowDefinition Height="*"/>
 
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle x:Name="rect1" Grid.Column="0" Width="350" Fill="Gainsboro"/>
+        <Rectangle x:Name="rect2" Grid.Row="0" Grid.Column="1" Fill="SteelBlue"/>
+        <Rectangle x:Name="rect4" Grid.Row="1" Grid.Column="1" Fill="SteelBlue"/>
+        <Rectangle x:Name="rect3" Grid.Row="1" Grid.Column="0" Fill="Gainsboro"/>
+        
+        <Image Name="pic1" Source="https://i1.rgstatic.net/ii/profile.image/614224199958542-1523453869191_Q512/Naveen_Jangid.jpg" MaxHeight="250" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,50,50,0"/>
+        <TextBlock Name="title" IsColorFontEnabled="True" FontStretch="Expanded" FontWeight="SemiBold" FontSize="54" Margin="20,20,0,0" Grid.Column="1" Text="Basic Information"/>
+        <!--<RichTextBlock Margin="0,20,0,0" Name="richTextBlock" Grid.Column="1" Grid.Row="1" >
+            
+            <Paragraph Margin="20,10,325,0" FontWeight="SemiBold" FontSize="22"> 
+                Hello! This is Naveen Jangid, a student of Computer Science and Engineering from Jaipur Rajasthan. 
+            </Paragraph>
+            
+            <Paragraph Margin="20,10,325,0" FontSize="22">
+                I am an aspirant of cutting edge technologies. I see a lot of potential in modern Computer Science Technologies, and the most
+                trendy example of which is the Machine Learning and AI. There are many growing fields in Computer Science that can change 
+                the world.
+I,              as an aspirant of these technologies, wish to play my role in a significant way. With the scholarship, I wish to pursue 
+                applied computer science learning giving in the best I can. Currently, I'm learning to build intelligent Machine Learning 
+                models for language translation and market prediction and also began to get into android app development.
+            </Paragraph>
+            
+            <Paragraph Margin="20,10,40,0" FontSize="22">
+                The greatest adversity I faced so far was either lack of knowledge or no access to cloud computing for training my models, 
+                and it is just insane to train a machine learning model with a dataset spanning to several Gigs onto a local machine.
+                I figured out I needed to learn and improve my understanding over optimization of the training processes and needed
+                access to cloud computing power of the tech giants.
+            </Paragraph>
+
+            <Paragraph Margin="20,10,40,0" FontSize="22">
+                I started learning with tensorflow tutorials on the internet and for cloud access, I got an opportunity to be a part of 
+                Microsoft's Student Partner Program (MSP Program), in which access to their cloud and other services becomes easy and free for me.
+                Yet I was wondering to explore, and I got student benefits on Google cloud platform and I'm already loving it.
+            </Paragraph>
+        </RichTextBlock>
+        -->
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="20,20,0,0">
+            <TextBlock Name="mainText1" Grid.Column="1" Grid.Row="1" FontWeight="SemiBold" FontSize="22" Margin="20,20,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap"> 
+            Hello! This is [Naveen Jangid](https://instagram.com/naveen_215), a student of Computer Science and Engineering from Jaipur Rajasthan
+            </TextBlock>
+            
+            <TextBlock Name="mainText1_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+
+            <TextBlock Name="mainText2" Grid.Column="1" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   TextWrapping="Wrap" Margin="20,10,325,0">
+                I am an aspirant of cutting edge technologies. I see a lot of potential in modern Computer Science Technologies, and the most
+                trendy example of which is the Machine Learning and AI. There are many growing fields in Computer Science that can change 
+                the world.
+                I, as an aspirant of these technologies, wish to play my role in a significant way. With the scholarship, I wish to pursue 
+                applied computer science learning giving in the best I can. Currently, I'm learning to build intelligent Machine Learning 
+                models for language translation and market prediction and also began to get into android app development.
+            </TextBlock>
+            
+            <TextBlock Name="mainText2_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+
+            <TextBlock Name="mainText3" Grid.Column="1" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   TextWrapping="Wrap" Margin="20,10,40,0">
+                The greatest adversity I faced so far was either lack of knowledge or no access to cloud computing for training my models, 
+                and it is just insane to train a machine learning model with a dataset spanning to several Gigs onto a local machine.
+                I figured out I needed to learn and improve my understanding over optimization of the training processes and needed
+                access to cloud computing power of the tech giants.
+            </TextBlock>
+
+            <TextBlock Name="mainText3_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+            
+            <TextBlock Name="mainText4" Grid.Column="1" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   TextWrapping="Wrap" Margin="20,10,40,0">
+                I started learning with tensorflow tutorials on the internet and for cloud access, I got an opportunity to be a part of 
+                Microsoft's Student Partner Program (MSP Program), in which access to their cloud and other services becomes easy and free for me.
+                Yet I was wondering to explore, and I got student benefits on Google cloud platform and I'm already loving it.
+            </TextBlock>
+
+            <TextBlock Name="mainText4_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+
+            <TextBlock Name="mainText5" Grid.Column="1" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   TextWrapping="Wrap" Margin="20,10,40,0"/>
+
+            <TextBlock Name="mainText5_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+
+            <TextBlock Name="mainText6" Grid.Column="1" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   TextWrapping="Wrap" Margin="20,10,40,0"/>
+
+            <TextBlock Name="mainText6_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+
+            <TextBlock Name="mainText7" Grid.Column="1" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   TextWrapping="Wrap" Margin="20,10,40,0"/>
+
+            <TextBlock Name="mainText7_sub1" Grid.Column="1" Grid.Row="1" FontSize="22" Margin="20,0,325,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text= " "/>
+        </StackPanel>
+        
+        <Image Name="fbImage" Source="NULL" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,20,20,20"></Image>
+        <Image Name="instaImage" Source="NULL" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="80,20,20,20"></Image>
+        <Image Name="gitImage" Source="NULL" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,20,20,20"></Image>
+        <Image Name="linkImage" Source="NULL" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,20,20,20"></Image>
+        
+        <TextBlock x:Name="appNameLabel" FontStretch="SemiCondensed" FontWeight="Thin"  FontSize="48" Text="Naveen Jangid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0"/>
+        
+        <Button Name="intro" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="20,50,-330,0" Grid.Row="1" Content="Basic Information" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="education" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,100,-330,0" Grid.Row="1" Content="Education" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="responsibility" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,150,-330,0" Grid.Row="1" Content="Responsible Positions" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="Trainings" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,200,-330,0" Grid.Row="1" Content="Trainings" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="Projects" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,250,-330,0" Grid.Row="1" Content="Projects" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="skills" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,300,-330,0" Grid.Row="1" Content="Skills" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="additionals" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,350,-330,0" Grid.Row="1" Content ="Additional Details" Grid.ColumnSpan="2" Width="310"/>
+        <Button Name="contact" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,400,-330,0" Grid.Row="1" Content="Contact Me" Width="310" />
     </Grid>
 </Page>
