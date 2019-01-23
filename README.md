@@ -1,6 +1,5 @@
 # My-Resume
-UWP static App for my resume.
-- Used: Grids and Stackpanels
+UWP static (Hello-World) App which contains a sample resume.
 
 ############################################################################################# 
 ####################################### <b>NAVEEN JANGID</b> ########################################
@@ -8,22 +7,25 @@ UWP static App for my resume.
 
 # About me
 
-- An UWP developer (C#, .NET and XAML)
+- Machine Learning | Data Science | Deep Learning
 
-- Experienced in C#, XML, C++, Java, Python and Technologies including -
-  Python machine learning and data visualisation libraries (SciKit, tensorflow, matplotlib, numpy, pandas etc.)
+- Pursuing Azure Developer Associate Certification Exam
+
+- A cross-platform developer (Android and Windows UWP, novice at iOS development)
+
+- Experienced in Python, C++, Java, C#, 
 
 - Console app development in C++, python, java and C#
 
-- Layout development in XAML (Visual Studio, .NET)
+- Layout (UI) development for Android and Windows
 
-- Azure VM service
+- Cloud Computing (Azure Web Apps, Azure Functions app, Azure Service Fabric etc.)
 
-- Azure web app services
+- Cloud Analytics (azure Analytics Services)
 
 - Azure congnitive services (customvision.ai)
 
-- Azure Machine Learning Studio (My experiment: https://gallery.azure.ai/Experiment/Stock-Prediction)
+- Azure Machine Learning Studio (sample work: https://gallery.azure.ai/Experiment/Stock-Prediction)
 
 - Microsoft Bot framework
 
